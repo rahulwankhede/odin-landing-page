@@ -1,0 +1,21 @@
+/*
+.header{
+  background-color: #1F2937;
+  height: 500px;
+}
+*/
+.header-top, .header-bottom, .squares{
+  display: flex;
+}
+
+.header-links{
+  margin-left: auto;
+}
+
+.header-img{
+  margin-left: auto
+}
+
+.squares{
+  flex-direction: column;
+}

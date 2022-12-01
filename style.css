@@ -76,10 +76,6 @@ button{
   border: 0;
 }
 
-.section3{
-  background-color: #3882F6;
-}
-
 .section1{
   display: flex;
   flex-direction: column;
@@ -121,4 +117,23 @@ button{
   font-style: normal;
   font-weight: bold;
   margin-left: auto;
+}
+
+.section3{
+  background-color: #3882F6;
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  border-radius: 3%;
+  color: white;
+}
+
+.section3 .big-text{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.section3 button{
+  border: 2px solid white;
 }

@@ -12,7 +12,7 @@ body{
   padding: 10px 200px 100px 200px;
 }
 
-.header-top, .header-bottom, .squares{
+.header-top, .header-bottom{
   display: flex;
 }
 
@@ -45,10 +45,6 @@ a{
 
 .header-img{
   margin-left: auto
-}
-
-.squares{
-  flex-direction: column;
 }
 
 .header .big-text{
@@ -96,9 +92,17 @@ button{
   color: #1F2937;
 }
 
+.square1, .square2, .square3, .square4{
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
 .squares{
   display: flex;
+  flex: 1 1 0;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .section2{

@@ -137,3 +137,10 @@ button{
 .section3 button{
   border: 2px solid white;
 }
+
+.footer{
+  background-color: #1F2937;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}

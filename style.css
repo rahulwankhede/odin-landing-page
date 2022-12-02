@@ -1,5 +1,7 @@
 body{
   font-family: 'Roboto', sans-serif;
+  margin: 0px 10px;
+  margin-color: black;
 }
 
 .header{
@@ -98,7 +100,11 @@ button{
   display: flex;
   flex: 1 1 0;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 30px;
+}
+
+.square-text{
+  max-width: 150px;
 }
 
 .section2{

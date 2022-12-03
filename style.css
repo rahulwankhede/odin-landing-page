@@ -1,6 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
-  margin: 0px 10px;
+  margin: 0px;
+  padding: 0px;
   margin-color: black;
 }
 
